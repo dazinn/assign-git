@@ -1,0 +1,7 @@
+1. A gitignore file indicates which files should NOT be backed up to the repository. For a java project, it should include *.class, *.log, *.ctxt, .mtj.tmp/, *.jar, *.war, *.nar, *.ear, *.zip, *.tar.gz, *.rar, and hs_err_pid*.
+
+2. In git, a fast-forward refers to a branch that can be merged into another branch without conflict. 
+
+3. Different branches allow for different engineers to work on different (or the same) features simultaneously, and then merge their changes together in a branch separate from the master branch. This allows for merge conflicts to be found and fixed before they could make their way into master, and potentially break the code there. 
+
+4. In a project there is usually just one remote repository, that everyone on the team clones into. 
